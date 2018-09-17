@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html class="portfolio-page">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>React - Bootstrap Theme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" type="text/css" href="scss/bootstrap/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="dist/theme.min.css" />
+
+  <!-- javascript -->
+  <script src="dist/theme.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body class="timeline-page" style="background-color: white;">
+  <div class="navbar navbar-light navbar-expand-lg" role="banner">
+    <div class="container" style="display: flex">
+      <a class="navbar-brand" href="index2.html">
+        <img src="images/ascend.png" class="mr-2 img-fluid" style="width: 250px; margin: 10px"/>
+      </a>
+
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse" style="align-self: flex-end">
+        <ul class="navbar-nav" >
+          <li class="nav-item dropdown">
+            <a href="blog-timeline.html" class="nav-link dropdown-toggle" style="font-size: 14px; ">
+              EVENTS
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="gallery.html" class="nav-link dropdown-toggle" style="font-size: 14px; ">
+              LEADERSHIP
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="font-size: 14px; ">
+              GALLERY
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="aboutus.html">About us</a>
+              <a class="dropdown-item" href="contactus.html">Contact us</a>
+              <a class="dropdown-item" href="gallery.html">Gallery</a>
+              <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+              <a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a>
+              <a class="dropdown-item" href="invoice.html">Invoice page</a>
+              <a class="dropdown-item" href="timeline.html">Timeline Page</a>
+              <a class="dropdown-item" href="docs.html">API Documentation</a>
+              <a class="dropdown-item" href="support.html">Support</a>
+              <a class="dropdown-item" href="support-topic.html">Support Topic</a>
+              <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
+              <a class="dropdown-item" href="status.html">Status</a>
+              <a class="dropdown-item" href="signup.html">Sign Up & Sign In</a>
+              <a class="dropdown-item" href="signup-rotate.html">Sign Up Miscellaneous</a>
+              <a class="dropdown-item" href="404.html">404 Page</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown dropdown-extend">
+            <a href="contactus.html" class="nav-link dropdown-toggle" style="font-size: 14px; ">
+              CONTACT US
+              <!-- <i class="ion-chevron-down"></i> -->
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="font-size: 14px; ">
+              TEST BANK
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="blog.html">Blog</a>
+              <a class="dropdown-item" href="blog-cols.html">Blog cols</a>
+              <a class="dropdown-item" href="blog-timeline.html">Blog timeline</a>
+              <a class="dropdown-item" href="blogpost.html">Blog Post</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link--rounded" href="joinus.html">JOIN US</a>
+          </li>
+        </ul>
+        <a href="www.google.com"><ion-icon name="logo-facebook" style="color: grey; width: 35px; height: 35px; margin-left: 10px;"></ion-icon></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-hero" style="margin: 40px;">
+    <section class="container">
+      <h1 style="color: #D2691E;">
+        2018 FALL EVENTS
+      </h1>
+      <p>
+        GET INVOLVED
+      </p>
+    </section>
+  </div>
+
+
+
+  <div class="blog-timeline-wrapper">
+    <div class="container">
+      <div class="post left">
+        <div class="marker"></div>
+        <div class="entry smallish" style="background-image:url('images/event_gm.png'); background-size: 100% 100%;">
+        </div>
+      </div>
+      <div class="post">
+        <div class="marker"></div>
+        <div class="news">
+          <div class="author">
+            <img src="images/testimonials/testimonial2.jpg">
+          </div>
+          <section>
+            <h3>
+              <a href="#">
+                WEEK 1 | GENERAL MEETING
+              </a>
+            </h3>
+            <p>
+              Come learn about what Ascend at UCLA is, our events, and meet the board!
+            </p>
+            <a href="#" class="read-more">
+              Register
+            </a>
+          </section>
+          <footer class="clearfix">
+            <span class="tag pull-left">
+              <span class="ion-ios-pricetag-outline"></span>
+              EVENT DATE
+            </span>
+            <span class="date pull-right">4 OCTOBER</span>
+          </footer>
+        </div>
+      </div>
+      <div class="post left">
+        <div class="marker"></div>
+        <div class="news">
+          <div class="author">
+            <img src="images/testimonials/testimonial3.jpg">
+          </div>
+          <section>
+            <h3>
+              <a href="#">
+                WEEK 2 | HIKING SOCIAL
+              </a>
+            </h3>
+            <p>
+              This is one of our iconic events! Networking with professionals when they are sweating and jumping into the water with you!
+            </p>
+            <a href="#" class="read-more">
+              Register
+            </a>
+          </section>
+          <footer class="clearfix">
+            <span class="tag pull-left">
+              <span class="ion-ios-pricetag-outline"></span>
+              EVENT DATE
+            </span>
+            <span class="date pull-right">12 OCTOBER</span>
+          </footer>
+        </div>
+      </div>
+      <div class="post">
+        <div class="marker"></div>
+        <div class="entry smallish" style="background-image:url('images/event_kbbq.png'); background-size: 100% 100%;">
+        </div>
+      </div>
+      <div class="post">
+        <div class="marker"></div>
+        <div class="news">
+          <div class="author">
+            <img src="images/testimonials/testimonial4.jpg">
+          </div>
+          <section>
+            <h3>
+              <a href="#">
+                React Themes announce the addition of new pages and products.
+              </a>
+            </h3>
+            <p>
+              Functionality is so over-valued in design, and we’ve kept design very small in that way. Functionality is the sheer minimum. If your house burns down, what do you take? The cat in the window that you got from your mother, or the chair you have?
+            </p>
+            <a href="#" class="read-more">
+              Read more
+            </a>
+          </section>
+          <footer class="clearfix">
+            <span class="tag pull-left">
+              <span class="ion-ios-pricetag-outline"></span>
+              New Feature
+            </span>
+            <span class="date pull-right">12 December</span>
+          </footer>
+        </div>
+      </div>
+      <div class="post left">
+        <div class="marker"></div>
+        <div class="entry" style="background-image:url('images/bgs/photo-1474843148229-3163319fcc4c.jpeg');">
+          <div class="intro">
+            <h4>Some Forest</h4>
+            <p>
+              Some people say design is about solving problems.
+              <br />
+              Design is about cultural invention.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="post">
+        <div class="marker"></div>
+        <div class="news">
+          <div class="author">
+            <img src="images/testimonials/testimonial5.jpg">
+          </div>
+          <section>
+            <h3>
+              <a href="#">
+                What Video Game Designers Can Teach You About Influencing To Buy
+              </a>
+            </h3>
+            <p>
+              Checkout is an embeddable payment form for desktop, tablet, and mobile devices. It works within your site—customers can pay instantly, without being redirected away to complete the transaction.
+            </p>
+            <p>
+              This is designed to make showing off your best photos extremely fast and simple. There aren't many settings to configure.
+            </p>
+            <a href="#" class="read-more">
+              Read more
+            </a>
+          </section>
+          <footer class="clearfix">
+            <span class="tag pull-left">
+              <span class="ion-ios-pricetag-outline"></span>
+              New Feature
+            </span>
+            <span class="date pull-right">12 December</span>
+          </footer>
+        </div>
+      </div>
+      <div class="post left">
+        <div class="marker"></div>
+        <div class="news">
+          <div class="author">
+            <img src="images/testimonials/testimonial7.jpg">
+          </div>
+          <section>
+            <h3>
+              <a href="#">
+                React Themes announce the addition of new pages and products.
+              </a>
+            </h3>
+            <p>
+              Functionality is so over-valued in design, and we’ve kept design very small in that way. Functionality is the sheer minimum. If your house burns down, what do you take? The cat in the window that you got from your mother, or the chair you have?
+            </p>
+            <a href="#" class="read-more">
+              Read more
+            </a>
+          </section>
+          <footer class="clearfix">
+            <span class="tag pull-left">
+              <span class="ion-ios-pricetag-outline"></span>
+              New Feature
+            </span>
+            <span class="date pull-right">12 December</span>
+          </footer>
+        </div>
+      </div>
+      <div class="post">
+        <div class="marker"></div>
+        <div class="news">
+          <div class="author">
+            <img src="images/testimonials/testimonial8.jpg">
+          </div>
+          <section>
+            <h3>
+              <a href="#">
+                React Themes announce the addition of new pages and products.
+              </a>
+            </h3>
+            <p>
+              Functionality is so over-valued in design, and we’ve kept design very small in that way. Functionality is the sheer minimum. If your house burns down, what do you take? The cat in the window that you got from your mother, or the chair you have?
+            </p>
+            <a href="#" class="read-more">
+              Read more
+            </a>
+          </section>
+          <footer class="clearfix">
+            <span class="tag pull-left">
+              <span class="ion-ios-pricetag-outline"></span>
+              New Feature
+            </span>
+            <span class="date pull-right">12 December</span>
+          </footer>
+        </div>
+      </div>
+      <div class="post left">
+        <div class="marker"></div>
+        <div class="entry" style="background-image:url('images/bgs/photo-1442965416224-f6a7eca980fa.jpeg');">
+          <div class="intro">
+            <h4>Our Best Vacations</h4>
+            <p>
+              Some people say design is about solving problems.
+              <br />
+              Design is about cultural invention.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="post">
+        <div class="marker"></div>
+        <div class="entry smallish" style="background-image:url('images/bgs/photo-1467659226669-a1360d97be2d.jpeg');">
+          <div class="intro">
+            <h4>Our Best Vacations</h4>
+            <p>
+              Some people say design is about solving problems.
+              <br />
+              Design is about cultural invention.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="post left">
+        <div class="marker"></div>
+        <div class="news">
+          <div class="author">
+            <img src="images/testimonials/testimonial2.jpg">
+          </div>
+          <section>
+            <h3>
+              <a href="#">
+                React Themes announce the addition of new pages and products.
+              </a>
+            </h3>
+            <p>
+              Functionality is so over-valued in design, and we’ve kept design very small in that way. Functionality is the sheer minimum. If your house burns down, what do you take? The cat in the window that you got from your mother, or the chair you have?
+            </p>
+            <a href="#" class="read-more">
+              Read more
+            </a>
+          </section>
+          <footer class="clearfix">
+            <span class="tag pull-left">
+              <span class="ion-ios-pricetag-outline"></span>
+              News
+            </span>
+            <span class="date pull-right">03 January</span>
+          </footer>
+        </div>
+      </div>
+      <div class="post">
+        <div class="marker"></div>
+        <div class="news">
+          <div class="author">
+            <img src="images/testimonials/testimonial3.jpg">
+          </div>
+          <section>
+            <h3>
+              <a href="#">
+                React Themes announce the addition of new pages and products.
+              </a>
+            </h3>
+            <p>
+              Functionality is so over-valued in design, and we’ve kept design very small in that way. Functionality is the sheer minimum. If your house burns down, what do you take?
+            </p>
+            <p>
+              The cat in the window that you got from your mother, or the chair you have?
+            </p>
+            <a href="#" class="read-more">
+              Read more
+            </a>
+          </section>
+          <footer class="clearfix">
+            <span class="tag pull-left">
+              <span class="ion-ios-pricetag-outline"></span>
+              News
+            </span>
+            <span class="date pull-right">03 January</span>
+          </footer>
+        </div>
+      </div>
+      <div class="post left">
+        <div class="marker"></div>
+        <div class="entry" style="background-image:url('images/bgs/photo-1470753937643-efeb931202a9.jpeg');">
+          <div class="intro">
+            <h4>Our Best Vacations</h4>
+            <p>
+              Some people say design is about solving problems.
+              <br />
+              Design is about cultural invention.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="pager">
+        <a href="#">Older posts</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-showcase" style="margin-top: 20px; ">
+    <div class="container" >
+      <div class="project" style="border-color: orange;">
+        <h3 style="color: #D2691E;">WEEK 1 GENERAL MEETING</h3>
+        <div class="screen">
+          <img src="images/event_gm.png" class="img-fluid" alt="portfolio1" />
+        </div>
+        <p class="description">
+          Come learn about what Ascend at UCLA is, our events, and meet the board!
+        </p>
+        <div class="divider"></div>
+        <div class="visit" >
+          <a class="btn-shadow btn" href="portfolio-item.html" style="background-color: #D2691E !important;">
+            Register
+          </a>
+        </div>
+      </div>
+      <div class="project" style="border-color: orange;">
+        <h3 style="color: #D2691E;">WEEK 2 HIKING SOCIAL</h3>
+        <div class="screen">
+          <img src="images/event_kbbq.png" class="img-fluid" alt="portfolio1" />
+        </div>
+        <p class="description">
+          This is one of our iconic events! Networking with professionals when they are sweating and jumping into the water with you!
+        </p>
+        <div class="divider"></div>
+        <div class="visit" >
+          <a class="btn-shadow btn" href="portfolio-item.html" style="background-color: #D2691E !important;">
+            Register
+          </a>
+        </div>
+      </div>
+      <div class="project" style="border-color: orange;">
+        <h3 style="color: #D2691E;">WEEK 3 EXCEL WORKSHOP</h3>
+        <div class="screen">
+          <img src="images/event_case.png" class="img-fluid" alt="portfolio1" />
+        </div>
+        <p class="description">
+          No one else teaches Excel better than Ravatech does! Come learn Excel from the most famous professor from Anderson!
+        </p>
+        <div class="divider"></div>
+        <div class="visit" >
+          <a class="btn-shadow btn" href="portfolio-item.html" style="background-color: #D2691E !important;">
+            Register
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clients-section" style=" background: radial-gradient(#F4A460,	#D2691E); padding: 10px; margin-top: 60px;">
+    <div class="container" >
+      <div style="text-align: right; position: relative;">
+        <a href="#"><ion-icon name="logo-facebook" style="color: white; width: 40px; height: 40px; float: right; position: absolute; right: 270px; bottom: 0px;"></ion-icon></a>
+        <p><strong style="color: white">©&nbsp;</strong>2018 Ascend Leadership at UCLA</p>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+</body>
+</html>

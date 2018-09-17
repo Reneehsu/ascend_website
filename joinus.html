@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>React - Bootstrap Theme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" type="text/css" href="scss/bootstrap/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="dist/theme.min.css" />
+
+  <!-- javascript -->
+  <script src="dist/theme.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="navbar navbar-light navbar-expand-lg" role="banner">
+    <div class="container" style="display: flex">
+      <a class="navbar-brand" href="index2.html">
+        <img src="images/ascend.png" class="mr-2 img-fluid" style="width: 250px; margin: 10px"/>
+      </a>
+
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse" style="align-self: flex-end">
+        <ul class="navbar-nav" >
+          <li class="nav-item dropdown">
+            <a href="blog-timeline.html" class="nav-link dropdown-toggle" style="font-size: 14px; ">
+              EVENTS
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="gallery.html" class="nav-link dropdown-toggle" style="font-size: 14px; ">
+              LEADERSHIP
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="font-size: 14px; ">
+              GALLERY
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="aboutus.html">About us</a>
+              <a class="dropdown-item" href="contactus.html">Contact us</a>
+              <a class="dropdown-item" href="gallery.html">Gallery</a>
+              <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+              <a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a>
+              <a class="dropdown-item" href="invoice.html">Invoice page</a>
+              <a class="dropdown-item" href="timeline.html">Timeline Page</a>
+              <a class="dropdown-item" href="docs.html">API Documentation</a>
+              <a class="dropdown-item" href="support.html">Support</a>
+              <a class="dropdown-item" href="support-topic.html">Support Topic</a>
+              <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
+              <a class="dropdown-item" href="status.html">Status</a>
+              <a class="dropdown-item" href="signup.html">Sign Up & Sign In</a>
+              <a class="dropdown-item" href="signup-rotate.html">Sign Up Miscellaneous</a>
+              <a class="dropdown-item" href="404.html">404 Page</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown dropdown-extend">
+            <a href="contactus.html" class="nav-link dropdown-toggle" style="font-size: 14px; ">
+              CONTACT US
+              <!-- <i class="ion-chevron-down"></i> -->
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="font-size: 14px; ">
+              TEST BANK
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="blog.html">Blog</a>
+              <a class="dropdown-item" href="blog-cols.html">Blog cols</a>
+              <a class="dropdown-item" href="blog-timeline.html">Blog timeline</a>
+              <a class="dropdown-item" href="blogpost.html">Blog Post</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link--rounded" href="joinus.html">JOIN US</a>
+          </li>
+        </ul>
+        <a href="www.google.com"><ion-icon name="logo-facebook" style="color: grey; width: 35px; height: 35px; margin-left: 10px;"></ion-icon></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-hero" style="margin: 40px;">
+    <section class="container">
+      <h1 style="color: #D2691E;">
+        JOIN ASCEND
+      </h1>
+      <p>
+        DO IT RIGHT NOW
+      </p>
+    </section>
+  </div>
+
+  <div class="features-tabs-section" style="margin-top: 60px;">
+    <div class="container">
+      <div class="tabs-wrapper">
+        <ul class="nav nav-tabs justify-content-center" id="feature-tabs" >
+          <li>
+            <a href="#home" class="active" data-toggle="tab">Membership</a>
+          </li>
+          <li>
+            <a href="#profile" data-toggle="tab">How to Join</a>
+          </li>
+          <li>
+            <a href="#messages" data-toggle="tab">Ascend National</a>
+          </li>
+          <li>
+            <a href="#settings" data-toggle="tab">Ascend at UCLA</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="home">
+            <div class="row">
+              <div class="col-lg-6 order-lg-2 image" style="text-align: left; color: grey;">
+                <ul>
+                  <li>Exclusive Ascend member only events</li>
+                  <li>Mentorship from a network of successful professionals in accounting, consulting, entertainment, and telecom companies such as PwC, Deloitte, The Walt Disney Company, and AT&T</li>
+                  <li>Resource Database</li>
+                  <li>Support and guidance from the professionals of the Ascend Los Angeles Metro Chapter</li>
+                  <li>Extensive network of alumni all over the country</li>
+                  <li>Internal bondings</li>
+                  <li>Priority registration and consideration for all Ascend events and related activities</li>
+                </ul>
+                <!-- <img src="images/portfolioitem1.png" class="img-fluid" alt="pic2" /> -->
+              </div>
+              <div class="col-lg-6 order-lg-1 info">
+                <h4 style="color: #D2691E;">What does a membership include?</h4>
+                <p>
+                  If you would like to pursue an intern or board position with Ascend in the future, we encourage you to apply for membership by completing the application below. As a full member, you would gain access to:
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="profile">
+            <div class="row">
+              <div class="col-lg-6 image">
+                <img src="images/tabs/pic1.png" class="img-fluid" alt="pic1" />
+              </div>
+              <div class="col-lg-6 info">
+                <h4 style="color: #D2691E;">Only 2 steps to become a member of Ascend at UCLA</h4>
+                <p>
+                  Registering as an Ascend member through both national and local chapters will guarantee you free admission to all of our professional development, networking, and social events!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="messages">
+            <div class="row">
+              <div class="col-lg-6 order-lg-2 image" >
+                <a href="https://www.ascendleadership.org/" style="color: #D2691E;">
+                  <img src="images/ascend_national.png" style="border: 1px solid #D3D3D3; border-radius: 20px;" class="img-fluid" alt="pic3" />
+                </a>
+              </div>
+              <div class="col-lg-6 order-lg-1 info">
+                <h4 style="color: #D2691E;">Register as a member with Ascend National:</h4>
+                <ol>
+                  <li>Go to <a href="https://www.ascendleadership.org/" style="color: #D2691E;">www.ascendleadership.org</a></li>
+                  <li>Click “Join Today!” Most applicants fall under the category of “full-time undergraduate student”</li>
+                  <li>Create an account</li>
+                  <li>Pay the national membership fee of $25</li>
+                  <li>Send a screenshot of your receipt to ascendatucla@gmail.com</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="settings">
+            <div class="row">
+
+              <div class="col-lg-6 info">
+                <h4 style="color: #D2691E;">Register as a member with the Ascend at UCLA</h4>
+                <ol>
+                  <li>Fill out the
+                    <a style="color: #D2691E;" href="https://docs.google.com/forms/d/e/1FAIpQLSfA-eAid_hQu9cfAebxbV0ulLkdJmd04StLS2hWe4DZ1dYRrA/viewform?c=0&w=1">Ascend Membership Application</a>
+                  </li>
+                  <li> Pay the UCLA Chapter Membership fee by </br> Venmo: @ascendatucla
+                    <ul>
+                      <li>Life Time: $35</li>
+                      <li>One Year: $25</li>
+                    </ul>
+                  </li>
+                </ol>
+              </div>
+              <div class="col-lg-6 image" >
+                <a style="color: #D2691E;" href="https://docs.google.com/forms/d/e/1FAIpQLSfA-eAid_hQu9cfAebxbV0ulLkdJmd04StLS2hWe4DZ1dYRrA/viewform?c=0&w=1">
+                  <img src="images/membership_app.png" style="border: 1px solid #D3D3D3; border-radius: 20px;" class="img-fluid" alt="pic4" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="clients-section" style=" background: radial-gradient(#F4A460,	#D2691E); padding: 10px; margin-top: 60px;">
+    <div class="container" >
+      <div style="text-align: right; position: relative;">
+        <a href="#"><ion-icon name="logo-facebook" style="color: white; width: 40px; height: 40px; float: right; position: absolute; right: 270px; bottom: 0px;"></ion-icon></a>
+        <p><strong style="color: white">©&nbsp;</strong>2018 Ascend Leadership at UCLA</p>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+</body>
+</html>

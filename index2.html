@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>React - Bootstrap Theme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" type="text/css" href="scss/bootstrap/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="dist/theme.min.css" />
+
+  <!-- javascript -->
+  <script src="dist/theme.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="navbar navbar-light navbar-expand-lg" role="banner">
+    <div class="container" style="display: flex">
+      <a class="navbar-brand" href="index2.html">
+        <img src="images/ascend.png" class="mr-2 img-fluid" style="width: 250px; margin: 10px"/>
+      </a>
+
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse" style="align-self: flex-end">
+        <ul class="navbar-nav" >
+          <li class="nav-item dropdown">
+            <a href="blog-timeline.html" class="nav-link dropdown-toggle" style="font-size: 14px; ">
+              EVENTS
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="gallery.html" class="nav-link dropdown-toggle" style="font-size: 14px; ">
+              LEADERSHIP
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="font-size: 14px; ">
+              GALLERY
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="aboutus.html">About us</a>
+              <a class="dropdown-item" href="contactus.html">Contact us</a>
+              <a class="dropdown-item" href="gallery.html">Gallery</a>
+              <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+              <a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a>
+              <a class="dropdown-item" href="invoice.html">Invoice page</a>
+              <a class="dropdown-item" href="timeline.html">Timeline Page</a>
+              <a class="dropdown-item" href="docs.html">API Documentation</a>
+              <a class="dropdown-item" href="support.html">Support</a>
+              <a class="dropdown-item" href="support-topic.html">Support Topic</a>
+              <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
+              <a class="dropdown-item" href="status.html">Status</a>
+              <a class="dropdown-item" href="signup.html">Sign Up & Sign In</a>
+              <a class="dropdown-item" href="signup-rotate.html">Sign Up Miscellaneous</a>
+              <a class="dropdown-item" href="404.html">404 Page</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown dropdown-extend">
+            <a href="contactus.html" class="nav-link dropdown-toggle" style="font-size: 14px; ">
+              CONTACT US
+              <!-- <i class="ion-chevron-down"></i> -->
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="testbank.html" class="nav-link dropdown-toggle" style="font-size: 14px; ">
+              TEST BANK
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link--rounded" href="joinus.html">JOIN US</a>
+          </li>
+        </ul>
+        <a href="www.google.com"><ion-icon name="logo-facebook" style="color: grey; width: 35px; height: 35px; margin-left: 10px;"></ion-icon></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="slider-hero" id="slider">
+    <a class="slide-nav prev" href="#">Prev</a>
+    <a class="slide-nav next" href="#">Next</a>
+    <nav>
+      <a class="active" href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
+    </nav>
+    <div class="slides">
+      <div class="slide first active">
+        <div class="bg"></div>
+        <div class="container customFadeInUp">
+          <h1 class="hero-text" style="margin-top: 300px">Direct access to Ascend LA Metro Chapter</h1>
+          <p class="sub-text">
+            Professionals from a variety of companies, including Deloittee, EY, PWC, KPMG, Disney, Boeing......
+          </p>
+          <!-- <div class="video-wrapper">
+            <div class="video">
+              <img src="images/player.png" id="demo-player" alt="videoplayer" />
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <div class="slide second">
+        <div class="bg"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 info">
+              <h1 class="hero-text">
+                Take control of your career
+              </h1>
+              <p>
+                Network with professionals and aspiring fellow members
+              </p>
+              <div class="cta">
+                <a href="features.html" class="button-outline">
+                  JOIN US
+                  <i class="fa fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+            <!-- <div class="col-sm-6 hidden-xs mobiles">
+              <img src="images/devices3.png" class="img-fluid customFadeInUp" alt="devices" />
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="slide third">
+        <div class="bg"></div>
+        <div class="container customFadeInDown">
+          <h1 class="hero-text">
+            Mentorship, Leadership, & Career Exploration
+          </h1>
+          <p class="sub-text">
+            Provide opportunities for students to cultivate leadership and networking skills, as well as exploring what
+            they are passioante to pursue.
+          </p>
+          <!-- <div class="cta">
+            <a href="features.html" class="button-outline">See the tour</a>
+            <a href="signup.html" class="button">Sign up free</a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="video-modal">
+      <div class="wrap">
+        <iframe src="https://player.vimeo.com/video/22439234" width="620" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="features-section"> -->
+    <div class="services-grid-section services-grid-section--border" style="margin: 0px">
+      <div class="container">
+        <!-- <div class="header">
+          <h3>Need an easy way to customize your site?</h3>
+          <p>
+            React is perfect for novice developers and experts alike.
+          </p>
+        </div> -->
+        <div class="services">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="service">
+                <div class="pic">
+                  <img src="images/about.png" class="img-fluid" alt="services1" />
+                </div>
+                <div class="info">
+                  <strong style="weight: 700; color:#D2691E; font-size: 26px">WHO WE ARE</strong>
+                  <p style="color: black">
+                    Ascend at UCLA is part of a community of 34+ student chapters and 17+ professional chapters operating under
+                    the umbrella of Ascend National, the largest non-profit Pan-Asian business organization in North America.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service">
+                <div class="pic">
+                  <img src="images/about2.png" class="img-fluid" alt="services2" />
+                </div>
+                <div class="info">
+                  <strong style="weight: 700; color:#D2691E; font-size: 26px">WHAT WE DO</strong>
+                  <p style="color: black">
+                    We aim to provide opportunities for students to cultivate leadership and networking skills that will help them
+                    connect with various business institutions, in additional to fostering personal growth through events such as
+                    one-on-one mentorship programs and community service.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service">
+                <div class="pic">
+                  <img src="images/about3.png" class="img-fluid" alt="services3" />
+                </div>
+                <div class="info">
+                  <strong style="weight: 700; color:#D2691E; font-size: 26px">JOIN US NOW</strong>
+                  <p style="color: black">
+                    Join us today to gain access to a variety of exclusive workshops, mentorship programs, networking events, case
+                    competitions, and more to sharpen your business and interpersonal skills!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- </div> -->
+    </div>
+  </div>
+
+<!-- background: radial-gradient(#36414e,#253241); background-color: #F4A460;-->
+<!-- #FFE4B5,	#D2691E #D3D3D3-->
+  <div style=" background: radial-gradient(	#F5F5F5, #F5F5F5); padding: 20px; margin-top: 60px;">
+    <div class="container" style="padding: 0px; ">
+      <div class="header text-center" style="color: #D2691E">
+        <h3 >2018 ASCEND NATIONAL CONVENTION</h3>
+        <!-- <p>All plans include a 7-day free trial</p> -->
+      </div>
+      <div class="video-modal" >
+        <div class="wrap row" style=" margin:20px;">
+          <div class='youtube_codegena col-md-7' id='3TPJUih4Nzg' data-params='?&theme=dark&autoplay=1&autohide=2' src='https://cdn.uconnectlabs.com/wp-content/uploads/sites/12/2017/08/Ascend_Logo-480x320.jpg?v=10784'style='width:620px; height:365px;'></div><script src='https://rawgit.com/shaneapen/Async-Youtube-Player/master/async_youtube_player.js'></script><div style='font-size: 0.8em'></div>
+          <!-- <iframe  class="col-md-8" src="https://www.youtube.com/embed/3TPJUih4Nzg?autoplay=1" width="620" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+          <div class="col-md-4" style="margin-left: 30px;">
+            <p style="color: black; ">
+              The Ascend National Convention and Career Fair is the largest gathering of Pan-Asian business leaders and
+              professionals in North America.
+            </p>
+            <p style="color: black; ">3,000+ top industry leaders, senior executives and professionals, along with MBAs and undergraduate students
+              representing 250+ corporations and universities participate in three days of leadership and professional development and networking.
+               <button class="btn-shadow btn-shadow-secondary" style="display: block; margin-top: 20px; background-color: #D2691E; color: white;">ASCEND NATIONAL</button>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="services-showcase-section" style="margin: 0px">
+    <div class="container">
+      <div class="header">
+        <h3 style="color:#D2691E;">ASCEND AT UCLA UPCOMING EVENTS</h3>
+        <p style="color: black">
+          Check out our upcoming events for Fall 2018
+        </p>
+      </div>
+      <div class="services">
+        <div class="row">
+          <div class="col-md-6 service">
+            <img src="images/circle-icons/full-color/profle.png" alt="globe" />
+            <div class="info">
+              <strong style="color:#D2691E; font-size: 20px;">WEEK 1 | GENERAL MEETING</strong>
+              <p style="color: black; font-size: 16px;">Come learn about what Ascend at UCLA is, our events, and meet the board!</p>
+            </div>
+          </div>
+          <div class="col-md-6 service">
+            <img src="images/circle-icons/full-color/crossroads.png" alt="location" />
+            <div class="info">
+              <strong style="color:#D2691E; font-size: 20px;">WEEK 2 | HIKING SOCIAL</strong>
+              <p style="color: black; font-size: 16px;">This is one of our iconic events! Networking with professionals when they are sweating and jumping into the water with you!</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 service">
+            <img src="images/circle-icons/full-color/barchart.png" alt="smartphone" />
+            <div class="info">
+              <strong style="color:#D2691E; font-size: 20px;">WEEK 3 | EXCEL WORKSHOP</strong>
+              <p style="color: black; font-size: 16px;">No one else teaches Excel better than Ravatech does! Come learn Excel from the most famous professor from Anderson!</p>
+            </div>
+          </div>
+          <div class="col-md-6 service">
+            <img src="images/circle-icons/full-color/heart.png" alt="support" />
+            <div class="info">
+              <strong style="color:#D2691E; font-size: 20px;">WEEK 4 | MENTORSHIP KICKOFF</strong>
+              <p style="color: black; font-size: 16px;">Exclusively offer for members with great passion to learn about career options, and gear up with all you need to build your career!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="testimonials-section">
+    <div class="container">
+      <h3 class="header">
+        Trusted by a lot businesses around the world:
+      </h3>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="testimonial">
+            <div class="quote">
+              I am just quoting some stuff but I am seriously happy about this product. Has a lot of powerful
+              features and is so easy to set up, I could stay customizing it day and night, it's just so much fun!
+              <div class="arrow-down">
+                <div class="arrow"></div>
+                <div class="arrow-border"></div>
+              </div>
+            </div>
+            <div class="author">
+              <img src="images/testimonials/testimonial3.jpg" class="pic" alt="testimonial3" />
+              <div class="name">John McClane</div>
+              <div class="company">Microsoft</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="testimonial">
+            <div class="quote">
+              This thing is one of those tools that everybody should be using. I really like it and with this ease to use, you can kickstart your projects and apps and just focus on your business!
+              <div class="arrow-down">
+                <div class="arrow"></div>
+                <div class="arrow-border"></div>
+              </div>
+            </div>
+            <div class="author">
+              <img src="images/testimonials/testimonial2.jpg" class="pic" alt="testimonial2" />
+              <div class="name">Carl Jones</div>
+              <div class="company">Pixar Co.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-section">
+    <p>
+      Start your free 14 day trial!
+    </p>
+    <a href="signup.html">
+      Sign up for free
+    </a>
+  </div> -->
+
+  <div class="clients-section" style=" background: radial-gradient(#F4A460,	#D2691E); padding: 10px; margin-top: 60px;">
+    <div class="container" >
+      <!-- <h3>Our Sponsors</h3> -->
+      <div style="text-align: right; position: relative;">
+        <a href="#"><ion-icon name="logo-facebook" style="color: white; width: 40px; height: 40px; float: right; position: absolute; right: 270px; bottom: 0px;"></ion-icon></a>
+        <p><strong style="color: white">©&nbsp;</strong>2018 Ascend Leadership at UCLA</p>
+      </div>
+
+      <!-- <p>
+        These are some of our customers who have helped us by using our product.
+      </p> -->
+      <!-- <div class="logos" style="padding: 10px">
+        <img src="images/logos/google.png">
+        <img src="images/logos/facebook.png">
+        <img src="images/logos/apple.png">
+        <img src="images/logos/stripe.png">
+        <img src="images/logos/yahoo.png">
+      </div> -->
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    $(function () {
+      var $navDots = $("#slider nav a")
+      var $next = $(".slide-nav.next");
+      var $prev = $(".slide-nav.prev");
+      var $slides = $("#slider .slides .slide");
+      var actualIndex = 0;
+      var swiping = false;
+      var interval;
+
+      $navDots.click(function (e) {
+        e.preventDefault();
+        if (swiping) { return; }
+        swiping = true;
+
+        actualIndex = $navDots.index(this);
+        updateSlides(actualIndex);
+      });
+
+      $next.click(function (e) {
+        e.preventDefault();
+        if (swiping) { return; }
+        swiping = true;
+
+        clearInterval(interval);
+        interval = null;
+
+        actualIndex++;
+        if (actualIndex >= $slides.length) {
+          actualIndex = 0;
+        }
+
+        updateSlides(actualIndex);
+      });
+
+      $prev.click(function (e) {
+        e.preventDefault();
+        if (swiping) { return; }
+        swiping = true;
+
+        clearInterval(interval);
+        interval = null;
+
+        actualIndex--;
+        if (actualIndex < 0) {
+          actualIndex = $slides.length - 1;
+        }
+
+        updateSlides(actualIndex);
+      });
+
+      function updateSlides(index) {
+        // update nav dots
+        $navDots.removeClass("active");
+        $navDots.eq(index).addClass("active");
+
+        // update slides
+        var $activeSlide = $("#slider .slide.active");
+        var $nextSlide = $slides.eq(index);
+
+        $activeSlide.fadeOut();
+        $nextSlide.addClass("next").fadeIn();
+
+        setTimeout(function () {
+          $slides.removeClass("next").removeClass("active");
+          $nextSlide.addClass("active");
+          $activeSlide.removeAttr('style');
+          swiping = false;
+        }, 1000);
+      }
+
+      interval = setInterval(function () {
+        if (swiping) { return; }
+        swiping = true;
+
+        actualIndex++;
+        if (actualIndex >= $slides.length) {
+          actualIndex = 0;
+        }
+
+        updateSlides(actualIndex);
+      }, 5000);
+
+      // demo player
+      var $videoModal = $(".video-modal");
+      $("#demo-player").click(function () {
+        $videoModal.toggleClass("active");
+        clearInterval(interval);
+        interval = null;
+      });
+      $videoModal.click(function () {
+        $videoModal.removeClass("active");
+        setTimeout(function () {
+          $videoModal.find(".wrap").html('<iframe src="https://player.vimeo.com/video/22439234" width="620" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+        }, 1000);
+      })
+      $videoModal.find(".wrap").click(function (e) {
+        e.stopPropagation();
+      });
+    });
+  </script>
+  <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+</body>
+</html>

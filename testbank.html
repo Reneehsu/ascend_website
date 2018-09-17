@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>React - Bootstrap Theme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" type="text/css" href="scss/bootstrap/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="dist/theme.min.css" />
+
+  <!-- javascript -->
+  <script src="dist/theme.min.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="navbar navbar-light navbar-expand-lg" role="banner">
+    <div class="container" style="display: flex">
+      <a class="navbar-brand" href="index2.html">
+        <img src="images/ascend.png" class="mr-2 img-fluid" style="width: 250px; margin: 10px"/>
+      </a>
+
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbar-collapse" style="align-self: flex-end">
+        <ul class="navbar-nav" >
+          <li class="nav-item dropdown">
+            <a href="blog-timeline.html" class="nav-link dropdown-toggle" style="font-size: 14px; ">
+              EVENTS
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="gallery.html" class="nav-link dropdown-toggle" style="font-size: 14px; ">
+              LEADERSHIP
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="font-size: 14px; ">
+              GALLERY
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="aboutus.html">About us</a>
+              <a class="dropdown-item" href="contactus.html">Contact us</a>
+              <a class="dropdown-item" href="gallery.html">Gallery</a>
+              <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+              <a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a>
+              <a class="dropdown-item" href="invoice.html">Invoice page</a>
+              <a class="dropdown-item" href="timeline.html">Timeline Page</a>
+              <a class="dropdown-item" href="docs.html">API Documentation</a>
+              <a class="dropdown-item" href="support.html">Support</a>
+              <a class="dropdown-item" href="support-topic.html">Support Topic</a>
+              <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
+              <a class="dropdown-item" href="status.html">Status</a>
+              <a class="dropdown-item" href="signup.html">Sign Up & Sign In</a>
+              <a class="dropdown-item" href="signup-rotate.html">Sign Up Miscellaneous</a>
+              <a class="dropdown-item" href="404.html">404 Page</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown dropdown-extend">
+            <a href="contactus.html" class="nav-link dropdown-toggle" style="font-size: 14px; ">
+              CONTACT US
+              <!-- <i class="ion-chevron-down"></i> -->
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="font-size: 14px; ">
+              TEST BANK
+              <i class="ion-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="blog.html">Blog</a>
+              <a class="dropdown-item" href="blog-cols.html">Blog cols</a>
+              <a class="dropdown-item" href="blog-timeline.html">Blog timeline</a>
+              <a class="dropdown-item" href="blogpost.html">Blog Post</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link--rounded" href="joinus.html">JOIN US</a>
+          </li>
+        </ul>
+        <a href="www.google.com"><ion-icon name="logo-facebook" style="color: grey; width: 35px; height: 35px; margin-left: 10px;"></ion-icon></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery-hero" style="margin: 40px; text-align: center;">
+    <section class="container">
+      <div style="margin-bottom: 20px;"><img src="images/circle-icons/full-color/locked.png" class="img-fluid" alt="pic3" /></div>
+      <h1 style="color: #D2691E;">
+        ASCEND AT UCLA TEST BANK
+      </h1>
+      <p>
+        Exclusively for members
+      </p>
+    </section>
+  </div>
+
+  <div class="features-tabs-section" style="margin-top: 0px; ">
+    <section class="container" style="text-align: center; display: flex; justify-content: center;">
+      <form role="form" id="contact-form" method="post" class="col-lg-6" >
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" name="email" class="form-control" id="email" />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="text" name="password" class="form-control" id="password" />
+        </div>
+        <div class="submit">
+          <input type="submit" class="btn-shadow" style="background-color: #D2691E" value="Acess" />
+        </div>
+      </form>
+    </section>
+  <div>
+
+  <div class="clients-section" style=" background: radial-gradient(#F4A460,	#D2691E); padding: 10px; margin-top: 80px;">
+    <div class="container" >
+      <div style="text-align: right; position: relative;">
+        <a href="#"><ion-icon name="logo-facebook" style="color: white; width: 40px; height: 40px; float: right; position: absolute; right: 270px; bottom: 0px;"></ion-icon></a>
+        <p><strong style="color: white">©&nbsp;</strong>2018 Ascend Leadership at UCLA</p>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+</body>
+</html>
